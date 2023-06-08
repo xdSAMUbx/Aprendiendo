@@ -10,4 +10,4 @@ if tiempo_en_decir > 60:
 else:
     print('Que rapido que hablas')
     
-print (f"Dalto lo diria en {cantidad_palabras/2*0.3} segundos en decirlo")
+print (f"Dalto lo diria en {cantidad_palabras *100 // 2*0.3 / 100} segundos en decirlo")
