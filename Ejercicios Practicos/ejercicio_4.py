@@ -1,13 +1,16 @@
-#Numeros primos hasta llegar a ese numero
-num_max = int(input("Ingrese el numero hasta el cual desea conocer sus numeros primos: "))
 
-def encontrar_primos (num_max):
+def es_primo (num_max):
+    for i in range(2,num_max-1):
+        if num_max % i == 0: return False
+    return True
+
+def primos_hasta (num_max):
     primos = []
-    for i in range(1,num_max):
-        if num_max % i == 0 and  :
-            primos.append(i)
-            
-        print(primos)
-        
-encontrar_primos(num_max)
+    for i in range (3,num_max):
+        resultado = es_primo(i)
+        if resultado == True : primos.append(i)
+    return primos
+
+resultado = primos_hasta(121)
+print(resultado)
             
