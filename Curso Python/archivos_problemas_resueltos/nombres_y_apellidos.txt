@@ -1,0 +1,14 @@
+Los datos son: 
+
+Nombre: Samuel
+Apellido: Calderon
+-------------------
+Nombre: Mariana
+Apellido: Arango
+-------------------
+Nombre: Blanca
+Apellido: Arevalo
+-------------------
+Nombre: Bibiana
+Apellido: Arevalo
+-------------------

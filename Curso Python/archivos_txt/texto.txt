@@ -1,0 +1,8 @@
+Hola como estas maestro
+que haces boludo?
+Esto es una prueba y escribimos en el archivo
+linea 0 agregada 
+linea 1 agregada 
+linea 2 agregada 
+linea 3 agregada 
+linea 4 agregada 
