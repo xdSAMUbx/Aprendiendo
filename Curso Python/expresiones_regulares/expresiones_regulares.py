@@ -47,7 +47,7 @@ y esta es la final definitiva '''
 #resultado = re.findall(r"capitan$",texto,flags=re.M)
 
 #{n} --> Busca n cantidad de veces el valor de la izquierda
-resultado = re.findall(r"\d{1}",texto,flags=re.M)
+#resultado = re.findall(r"\d{1}",texto,flags=re.M)
 
 #{n,m} --> Busca al menos n, maximo m
 #resultado = re.findall(r"(ab){1,2}",texto,flags=re.M)
@@ -59,6 +59,8 @@ resultado = re.findall(r"\d{1}",texto,flags=re.M)
 # | --> busca una cosa o la otra (condicion or)
 resultado = re.findall(r"\d{1,4}|Hola",texto)
 
+
+#revisar curso de dalto
 
 
 print(resultado)
